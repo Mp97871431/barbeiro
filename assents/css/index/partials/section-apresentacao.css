@@ -1,4 +1,4 @@
-section {
+section.apresentacao {
     display: flex;
     margin-top: 20px;
     align-items: center;
@@ -8,31 +8,31 @@ section {
     background-image: linear-gradient(to bottom, black, #957a56);
 }
 
-section .texto {
+section.apresentacao .texto {
     text-align: center;
     justify-content: center;
     width: 100%;
     max-width: 450px;
 }
 
-section .texto h2 {
+section.apresentacao .texto h2 {
   font-size: 2em;
   padding-bottom: 20px;
 }
 
-section .texto p {
+section.apresentacao .texto p {
     color: var(--cor-branco);
     font-size: 1.2em;
     opacity: 0.7;
 }
 
-section .imagem {
+section.apresentacao .imagem {
     text-align: center;
     justify-content: center;
     width: 100%;
 }
 
-section .imagem img {
+section.apresentacao .imagem img {
     border-radius: 20px;
     max-width: 450px;
     padding-top: 40px;
@@ -41,29 +41,29 @@ section .imagem img {
 /* responsaivo */
 
 @media screen and (max-width: 1000px) {
-    section {
+    section.apresentacao {
     display: flex;
     margin-top: 20px;
     flex-direction: column;
     padding: 30px;
  }
 
- section .texto h2 {
+ section.apresentacao .texto h2 {
   color: var(--cor-branco);
   opacity: 0.7;
 }
 
-section .texto p {
+section.apresentacao .texto p {
     color: var(--cor-preto);
 }
 
-  section .imagem {
+  section.apresentacao .imagem {
     text-align: center;
     justify-content: center;
     width: 100%;
  }
 
-  section .imagem img {
+  section.apresentacao .imagem img {
     border-radius: 0;
     max-width: 200px;
  }

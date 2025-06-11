@@ -1,0 +1,206 @@
+section.sobre {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 100%;
+    background: linear-gradient(0deg , #0f0f0f, #0f0f11);
+    margin-top: 30px;
+}
+
+section.sobre .topo {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    z-index: 2;
+}
+
+section.sobre .topo img {
+    width: 100%;
+    max-width: 250px;
+}
+
+section.sobre .topo h2 {
+    color: var(--cor-branco);
+    font-size: 1.8em;
+    margin: 20px 0 20px 0;
+}
+
+section.sobre .topo h2 span {
+    color: #b69365;
+}
+
+section.sobre .info {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    padding: 0 120px 40px 120px;
+    z-index: 2;
+}
+
+section.sobre .info .um {
+    width: 100%;
+    max-width: 350px;
+    background-color: #957a5625;
+    border-radius: 10px;
+    padding: 20px;
+    transition: all 0.5s;
+}
+
+section.sobre .info .um:hover {
+    background-color: #957a56bd;
+}
+
+section.sobre .info .um h2 {
+    font-size: 1.4em;
+    color: var(--cor-branco);
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+section.sobre .info .um p {
+    line-height: 1.5;
+    text-align: justify;
+}
+
+section.sobre .info .dois {
+    width: 100%;
+    max-width: 350px;
+    background-color: #957a5625;
+    border-radius: 10px;
+    padding: 20px;
+    transition: all 0.5s;
+}
+
+section.sobre .info .dois:hover{
+    background-color:#957a56bd ;
+}
+
+section.sobre .info .dois h2 {
+    font-size: 1.4em;
+    color: var(--cor-branco);
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+section.sobre .info .dois p {
+    line-height: 1.5;
+    text-align: justify;
+}
+
+section.sobre .info .tres {
+    width: 100%;
+    max-width: 350px;
+    background-color: #957a5625;
+    border-radius: 10px;
+    padding: 20px;
+    transition: all 0.5s;
+}
+
+section.sobre .info .tres:hover {
+    background-color:#957a56bd ;
+}
+
+section.sobre .info .tres h2 {
+    font-size: 1.4em;
+    color: var(--cor-branco);
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+section.sobre .info .tres p {
+    line-height: 1.5;
+    text-align: justify;
+}
+
+section.sobre .blush{
+  width: 1000px;
+  height:1000px ;
+  background: radial-gradient(#957a5670, transparent 50%);/* para colocar a cor de fundo como um blush*/
+  border-radius: 50%;
+  position: absolute;
+  opacity: 0.2;
+  z-index: 1;
+ }
+
+ section.sobre .blush.um {
+  bottom: -300px;
+  left: -200px;
+  animation: blushOpacidade 7s linear infinite ;
+ }
+
+ section.sobre .blush.dois {
+  top: 300px ;
+  right: 100px;
+  animation: blushOpacidade 7s linear infinite ;
+ }
+
+ @keyframes blushOpacidade {
+  0%{
+    opacity:0.2 ;
+    transform: scale(1);
+  }
+  50%{
+    opacity:0.5 ;
+    transform:scale(1.1) ;
+  }
+  100%{
+   opacity:0.2 ;
+   transform:scale(1) ;
+  }
+ }
+
+ /* responsaivo */
+
+@media screen and (max-width: 1000px) {
+    section.sobre .info {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    padding: 0 120px 40px 120px;
+    z-index: 2;
+}
+
+section.sobre .topo img {
+    width: 100%;
+    max-width: 185px;
+}
+
+section.sobre .info .um {
+    margin-top: 20px;
+}
+section.sobre .info .dois {
+    margin-top: 20px;
+}
+section.sobre .info .tres {
+    margin-top: 20px;
+}
+
+section.sobre .blush.um {
+  bottom: -500px;
+  left: -400px;
+  animation: blushOpacidade 7s linear infinite ;
+ }
+
+ section.sobre .blush.dois {
+  display: none;
+ }
+
+ @keyframes blushOpacidade {
+  0%{
+    opacity:0.2 ;
+    transform: scale(1);
+  }
+  50%{
+    opacity:0.5 ;
+    transform:scale(1) ;
+  }
+  100%{
+   opacity:0.2 ;
+   transform:scale(1) ;
+  }
+ }
+}
