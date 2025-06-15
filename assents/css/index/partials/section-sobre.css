@@ -4,7 +4,8 @@ section.sobre {
     justify-content: center;
     flex-direction: column;
     width: 100%;
-    background: linear-gradient(0deg , #0f0f0f, #0f0f11);
+    background: linear-gradient(0deg , #101014, #16161b);
+    background: -webkit-linear-gradient(0deg , #101014 , #16161b);
     margin-top: 30px;
 }
 
