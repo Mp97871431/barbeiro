@@ -1,0 +1,99 @@
+section.estilo {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+    width: 100%;
+    margin-top: 30px;
+    padding: 30px;
+    background: linear-gradient(0deg , #101014, #16161b);
+    background: -webkit-linear-gradient(0deg , #101014 , #16161b);
+}
+
+section.estilo .titulo h1 {
+    text-align: center;
+    justify-content: center;
+    font-size: 1.9em;
+    color: var(--cor-branco);
+    opacity: 0.9;
+}
+
+section.estilo .cortes {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+}
+
+h2 {
+    font-size: 1.6em;
+    color: var(--cor-marrom);
+    padding: 20px;
+}
+
+
+section.estilo .corteum {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+
+section.estilo .corteum .low {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    flex-direction: column;
+}
+
+section.estilo .corteum .low img {
+    width: 100%;
+    max-width: 250px;
+    border-radius: 10px;
+    border: 1.5px solid var(--cor-marrom);
+}
+
+section.estilo .cortedois {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+
+section.estilo .cortedois .moica {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    flex-direction: column;
+}
+
+section.estilo .cortedois .moica img {
+    width: 100%;
+    max-width: 250px;
+    border-radius: 10px;
+    border: 1.5px solid var(--cor-marrom);
+}
+
+section.estilo .cortetres {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+
+section.estilo .cortetres .america {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    flex-direction: column;
+}
+
+section.estilo .cortetres .america img {
+    width: 100%;
+    max-width: 250px;
+    border-radius: 10px;
+    border: 1.5px solid var(--cor-marrom);
+}
