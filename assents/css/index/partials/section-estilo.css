@@ -54,6 +54,16 @@ section.estilo .corteum .low img {
     border: 1.5px solid var(--cor-marrom);
 }
 
+section.estilo .corteum .low #res1 {
+    width: 100%;
+    max-width: 380px;
+    border-radius: 10px;
+    margin-top: 20px;
+    background-color: var(--cor-marrom);
+    color: var(--cor-branco);
+    opacity: 0.7;
+}
+
 section.estilo .cortedois {
     display: flex;
     align-items: center;
@@ -76,6 +86,16 @@ section.estilo .cortedois .moica img {
     border: 1.5px solid var(--cor-marrom);
 }
 
+section.estilo .cortedois .moica #res2 {
+    width: 100%;
+    max-width: 380px;
+    border-radius: 10px;
+    margin-top: 20px;
+    background-color: var(--cor-marrom);
+    color: var(--cor-branco);
+    opacity: 0.7;
+}
+
 section.estilo .cortetres {
     display: flex;
     align-items: center;
@@ -96,4 +116,99 @@ section.estilo .cortetres .america img {
     max-width: 250px;
     border-radius: 10px;
     border: 1.5px solid var(--cor-marrom);
+}
+
+section.estilo .cortetres .america #res3 {
+    width: 100%;
+    max-width: 380px;
+    border-radius: 10px;
+    margin-top: 20px;
+    background-color: var(--cor-marrom);
+    color: var(--cor-branco);
+    opacity: 0.7;
+}
+
+section.estilo .barba {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+}
+
+section.estilo .barbaum {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+
+section.estilo .barbaum .curta {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    flex-direction: column;
+}
+
+section.estilo .barbaum .curta img {
+    width: 100%;
+    max-width: 400px;
+    border-radius: 10px;
+    border: 1.5px solid var(--cor-marrom);
+}
+
+section.estilo .barbaum .curta #res4 {
+    width: 100%;
+    max-width: 380px;
+    border-radius: 10px;
+    margin-top: 20px;
+    background-color: var(--cor-marrom);
+    color: var(--cor-branco);
+    opacity: 0.7;
+}
+
+section.estilo .barbadois {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+
+section.estilo .barbadois .grande {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    flex-direction: column;
+}
+
+section.estilo .barbadois .grande img {
+    width: 100%;
+    max-width: 250px;
+    border-radius: 10px;
+    border: 1.5px solid var(--cor-marrom);
+}
+
+section.estilo .barbadois .grande #res5 {
+    width: 100%;
+    max-width: 380px;
+    border-radius: 10px;
+    margin-top: 20px;
+    background-color: var(--cor-marrom);
+    color: var(--cor-branco);
+    opacity: 0.7;
+}
+
+@media screen and (max-width: 1000px) {
+    section.estilo .cortes {
+    flex-direction: column;
+}
+
+section.estilo .barba {
+    flex-direction: column;
+}
+
+section.estilo .barbaum .curta img {
+    max-width: 300px;
+}
 }
